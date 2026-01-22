@@ -1,8 +1,8 @@
 <h1 align="center">🌹 PacketBloom</h1>
 
 <p align="center">
-A modular packet analysis toolkit built with Python and C++ (libpcap + pybind11).  
-PacketBloom captures, analyzes, and visualizes network flows with a unique ASCII rose identity.
+A modular packet analysis toolkit built with Python and C++ (libpcap + pybind11).
+PacketBloom captures, analyzes, and visualizes network flows with a clean, banner-styled CLI.
 </p>
 
 <hr/>
@@ -33,7 +33,7 @@ PacketBloom captures, analyzes, and visualizes network flows with a unique ASCII
   <li><b>PCAP Export:</b> Save captured traffic into a <code>.pcap</code> file for Wireshark or other tools.</li>
   <li><b>Flow Analysis:</b> Summarize traffic flows (SRC_IP, DST_IP, protocol, packet count, bytes).</li>
   <li><b>Anomaly Detection:</b> Built-in rules highlight suspicious traffic patterns.</li>
-  <li><b>ASCII Banner UI:</b> Rose ASCII art shown in the menu for a unique visual identity.</li>
+  <li><b>Menu Banner:</b> Optional banner shown only in the main menu for a distinctive CLI look.</li>
 </ul>
 
 <hr/>
